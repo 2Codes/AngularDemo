@@ -1,0 +1,11 @@
+<div>
+    Add hobby: <input #hobbyInput/>
+    <button (click)="addGrade(hobbyInput.value)">Add</button>
+
+    <ul>
+        <li *ngFor="let hobby of hobbies">
+            {{hobby}}
+        </li>       
+    </ul>
+
+</div>
